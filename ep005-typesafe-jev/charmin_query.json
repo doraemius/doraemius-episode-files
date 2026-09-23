@@ -1,0 +1,33 @@
+{
+  "model": "jev-latest",
+  "state": "On Aug 22, 2026 the US imposed a 50% tariff on ~$20B of Canadian imports, including Northern Bleached Softwood Kraft (NBSK) pulp, a key tissue fiber that is 15-30% of the blend in premium bath tissue and 50-65% in premium paper towels. NC State researchers estimate this raises manufacturing costs 11-20% for premium toilet tissue and 31-38% for premium paper towels. Procter & Gamble (maker of Charmin and Bounty) already announced mid-single-digit percentage price increases on about 25% of its US products, citing roughly $1B in FY2026 tariff-driven cost impact. Manufacturers are drawing down pre-tariff pulp inventory and existing supply contracts, which typically delays retail price pass-through by weeks to months. Costco is known for resisting supplier price hikes on private-label and staple items to protect member trust.",
+  "questions": {
+    "price_increase_next_quarter": {
+      "type": "noul",
+      "instructions": "Will Costco's shelf price for Charmin bath tissue rise in the next fiscal quarter (mid-Oct to end of Dec 2026)?",
+      "criteria": {
+        "true": "Costco raises the shelf price for Charmin bath tissue within the window",
+        "false": "Costco holds the price flat through the window"
+      }
+    },
+    "expected_magnitude": {
+      "type": "choice",
+      "instructions": "If price rises, what magnitude of increase is most likely by end of the window?",
+      "criteria": {
+        "flat": "No change or under 2%",
+        "low": "2% to 5% increase",
+        "moderate": "6% to 15% increase",
+        "high": "More than 15% increase"
+      }
+    },
+    "confidence": {
+      "type": "score",
+      "instructions": "How strong is the evidence in the state for this specific prediction, as opposed to general industry-wide pressure?",
+      "criteria": [
+        "Low: mostly general industry pressure, nothing Costco-specific",
+        "Moderate: some signal but real uncertainty remains",
+        "High: strong, fairly direct signal"
+      ]
+    }
+  }
+}

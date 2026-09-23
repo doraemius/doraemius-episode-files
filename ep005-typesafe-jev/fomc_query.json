@@ -1,0 +1,33 @@
+{
+  "model": "jev-latest",
+  "state": "On Sept 16, 2026 the FOMC raised the federal funds target range by 25bp to 3.75%-4.00%, citing inflation still running above its 2% goal despite solid growth and steady job gains. The next FOMC meeting is Oct 28, 2026. As of Sept 20-21, 2026, CME Fed funds futures (via the Investing.com Fed Rate Monitor) price a 59.7% probability of another 25bp hike to 4.00%-4.25%, versus 40.3% probability of holding at 3.75%-4.00%. No rate cut is being priced by the market for this meeting.",
+  "questions": {
+    "oct_decision": {
+      "type": "choice",
+      "instructions": "What is the most likely FOMC decision at the Oct 28, 2026 meeting?",
+      "criteria": {
+        "cut": "Lower the target range",
+        "hold": "Keep the target range unchanged at 3.75%-4.00%",
+        "hike_25bp": "Raise the target range by 25bp to 4.00%-4.25%",
+        "hike_50bp_plus": "Raise the target range by 50bp or more"
+      }
+    },
+    "another_hike_this_meeting": {
+      "type": "noul",
+      "instructions": "Will the FOMC raise rates again at the Oct 28, 2026 meeting?",
+      "criteria": {
+        "true": "The target range is raised at this meeting",
+        "false": "The target range is not raised at this meeting"
+      }
+    },
+    "confidence": {
+      "type": "score",
+      "instructions": "How strong and unambiguous is the evidence in the state for this specific meeting's outcome?",
+      "criteria": [
+        "Low: market pricing is close to a coin flip",
+        "Moderate: a lean exists but real uncertainty remains",
+        "High: a clear, one-sided signal"
+      ]
+    }
+  }
+}
