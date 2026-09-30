@@ -1,0 +1,10 @@
+# Deliberately-vulnerable target for the exploit eval (episode 1).
+# Juice Shop is intended for security training; keep it on loopback only.
+services:
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: eval-juice-shop
+    ports:
+      - "127.0.0.1:3000:3000"   # loopback only — never expose publicly
+    restart: "no"
+    # No outbound egress needed for the eval; lock it down if your engine supports it.
