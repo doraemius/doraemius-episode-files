@@ -9,6 +9,7 @@ used. One folder per episode, and each folder has its own README.
 | EP006: Qwen3-VL local OCR | [`ep006-qwen3-vl-ocr/`](ep006-qwen3-vl-ocr) | the OCR scorer, the description probe (three controls), and the test image |
 | EP007: [Qwen3 Coder 30B wrote a Minecraft-style game](https://www.youtube.com/watch?v=5M1_bqp6Bo0) | its own repo: [doraemius-mimecraft-voxel-game](https://github.com/doraemius/doraemius-mimecraft-voxel-game) | the game, every iteration, every prompt |
 | Kokoro TTS on a Mac: why my AI voice sounded like a robot | [`kokoro-tts-on-a-mac/`](kokoro-tts-on-a-mac) | the narration, the voice script, and the tools that measured it |
+| 5 Languages Tested: which fits your HTTP + OAuth API per core? | [`lang-pk-http-stack/`](lang-pk-http-stack) | the script, repeated medians, profile report and findings log behind the video |
 
 Everything runs locally on your own hardware; nothing here calls a paid API.
 
