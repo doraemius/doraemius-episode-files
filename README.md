@@ -10,6 +10,7 @@ used. One folder per episode, and each folder has its own README.
 | EP007: [Qwen3 Coder 30B wrote a Minecraft-style game](https://www.youtube.com/watch?v=5M1_bqp6Bo0) | its own repo: [doraemius-mimecraft-voxel-game](https://github.com/doraemius/doraemius-mimecraft-voxel-game) | the game, every iteration, every prompt |
 | Kokoro TTS on a Mac: why my AI voice sounded like a robot | [`kokoro-tts-on-a-mac/`](kokoro-tts-on-a-mac) | the narration, the voice script, and the tools that measured it |
 | 5 Languages Tested: which fits your HTTP + OAuth API per core? | [`lang-pk-http-stack/`](lang-pk-http-stack) | the script, repeated medians, profile report and findings log behind the video |
+| Memory Safety: Which Language Is Best? | [`lang-memory-safety/`](lang-memory-safety) | the exact Rust, Go, Java, Nim and Gleam fixtures, pinned Docker commands, and measured results behind the video |
 | 22 AI Agent Mistakes in 8 Kinds, and the Check That Caught Them (Short) | [`agent-mistakes-short/`](agent-mistakes-short) | eight paste-ready verification prompts, a one-paste version, and a session-start rules hook that warns instead of failing silently |
 
 Everything runs locally on your own hardware; nothing here calls a paid API.
